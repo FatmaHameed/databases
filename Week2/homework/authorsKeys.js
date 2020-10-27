@@ -2,7 +2,6 @@ const util = require('util');
 const fs = require('fs');
 const mysql = require('mysql');
 
-
 const CONNECTION_CONFIG = {
   host: 'localhost',
   user: 'hyfuser',
@@ -21,10 +20,7 @@ const CREATE_AUTHORS_TABLE = `
   );`;
   const addCollaborator = `ALTER TABLE authors ADD Collaborator int`
   const addForeignKey = `ALTER TABLE authors ADD CONSTRAINT FK_Collaborator1 FOREIGN KEY (Collaborator) REFERENCES authors(author_no);`;
-/*
-Promisification : Conversion of a function that accepts a callback
-                    into a function that returns a promise
-*/
+
 
 async function executeQueries() {
   const connection = mysql.createConnection(CONNECTION_CONFIG);
@@ -36,10 +32,8 @@ async function executeQueries() {
     await execQuery(addCollaborator);
     // await execQuery(addForeignKey);
 
-
     const data = await readFile(__dirname + '/data/authors.json', 'utf8');
     const authors = JSON.parse(data);
-
     const promises = authors.map(author => execQuery('INSERT INTO authors SET ?', author));
 
     await execQuery(addForeignKey);
