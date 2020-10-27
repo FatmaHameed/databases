@@ -3,240 +3,208 @@
     "paper_id": 2001,
     "paper_title": "On Ethics and Economics",
     "conference": "Economics Conference",
-    "publish_date": "1995-04-26",
-    "author_no": 101
+    "publish_date": "1995-04-26"
 },
   {
     "paper_id": 2002,
     "paper_title": "Preventative tele-health supported services for early stage chronic obstructive pulmonary disease",
     "conference": "Springer Science and Business Media LLC",
-    "publish_date": "2011-01-07",
-    "author_no": 101
+    "publish_date": "2011-01-07"
   },
   
   {
     "paper_id": 2003,
     "paper_title": "Introduction in Economics",
     "conference": "Economic Conference",
-    "publish_date": "1995-04-26",
-    "author_no": 105
+    "publish_date": "1995-04-26"
   },
   
   {
     "paper_id": 2004,
     "paper_title": "Human Rights and Development",
     "conference": "Human Rights Conference",
-    "publish_date": "1999-01-26",
-    "author_no": 105
+    "publish_date": "1999-01-26"
   },
   
   {
     "paper_id": 2005,
     "paper_title": "Peacebuilding and Mediation",
     "conference": "Together for Peace",
-    "publish_date": "2013-01-03",
-    "author_no": 104
+    "publish_date": "2013-01-03"
   },
   
   {
     "paper_id": 2006,
     "paper_title": "Making Voice Heard",
     "conference": "Human Rights Conference",
-    "publish_date": "2011-01-07",
-    "author_no": 114
+    "publish_date": "2011-01-07"
   },
   
   {
     "paper_id": 2007,
     "paper_title": "Technology and Future",
     "conference": "Technology Conference",
-    "publish_date": "2015-08-17",
-    "author_no": 115
+    "publish_date": "2015-08-17"
   },
   
   {
     "paper_id": 2008,
     "paper_title": "Together Against Poverty",
     "conference": "Human Development Conference",
-    "publish_date": "2014-01-28",
-    "author_no": 115
+    "publish_date": "2014-01-28"
   },
   
   {
     "paper_id":2009,
     "paper_title": "Maternity Mortality in Developing Countries",
     "conference": "Health Conference",
-    "publish_date": "2014-01-07",
-    "author_no": 112
+    "publish_date": "2014-01-07"
   },
   
   {
     "paper_id": 2010,
     "paper_title": "Using Innovation in Development",
     "conference": "Human Development",
-    "publish_date": "2011-01-07",
-    "author_no": 112
+    "publish_date": "2011-01-07"
   },
   
   {
     "paper_id": 2011,
     "paper_title": "Inventing Researches Names",
     "conference": "MySQL Conference",
-    "publish_date": "2020-10-26",
-    "author_no": 103
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2012,
     "paper_title": "This is Future",
     "conference": "Future conference",
-    "publish_date": "2013-03-23",
-    "author_no": 107
+    "publish_date": "2013-03-23"
   },
   
   {
     "paper_id":2013,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 108
+    "paper_title": "Introduction in Psychology",
+    "conference": "Conference for Psychology",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2014,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 109
+    "paper_title": "Tooth Morphology",
+    "conference": "Conference for Dentistry",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2015,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 110
+    "paper_title": "Dental Histology",
+    "conference": "Conference for Dentistry",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2016,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 111
+    "paper_title": "Dental Pathology",
+    "conference": "Conference for Dentistry",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2017,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 112
+    "paper_title": "Embryology",
+    "conference": "Medical Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2018,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 116
+    "paper_title": "Social Inclusion",
+    "conference": "Psycho-social Support Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2019,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 115
+    "paper_title": "Women's Role in Society",
+    "conference": "Gender Equality Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2020,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 113
+    "paper_title": "Reconciliation and Peace",
+    "conference": "Peace-building Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2021,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no":102
+    "paper_title": "Drugs and Children Malformation",
+    "conference": "Conference of Embryology",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2022,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 103
+    "paper_title": "Impact of War on Women Empowerment",
+    "conference": "Gender Equality Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2023,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 104
+    "paper_title": "Impact of Social Wellbeing on Future",
+    "conference": "Conference for Social Behaviors",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2024,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 105
+    "paper_title": "Early Recovery",
+    "conference": "Peace-building Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2025,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 106
+    "paper_title": "Time Management",
+    "conference": "Human Development Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2026,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 105
+    "paper_title": "Technology in Medical Interventions",
+    "conference": "Health Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2027,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 107
+    "paper_title": "Technology in Humanitarian Response",
+    "conference": "Conference for Emergency Response",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2028,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 108
+    "paper_title": "What after the War",
+    "conference": "Peace-building Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2029,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 109
+    "paper_title": "Conflict and Change in Gender Roles",
+    "conference": "Peace-building Conference",
+    "publish_date": "2020-10-26"
   },
   
   {
     "paper_id": 2030,
-    "paper_title": "This will be Paper Title for all other papers",
-    "conference": "I lost my time inventing names of papers, conferences and authors",
-    "publish_date": "2020-10-26",
-    "author_no": 109
+    "paper_title": "Contingency Planning in Emergencies",
+    "conference": "Conference of Humanitarian Response",
+    "publish_date": "2020-10-26"
   }
-  
-  
 ]
