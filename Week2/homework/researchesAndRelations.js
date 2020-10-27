@@ -10,16 +10,14 @@ const CONNECTION_CONFIG = {
   database: 'Researches',
 };
 /* 
-The relationship between Authors and Research papers is M - M relations, since an author can write more than one research and the research could be written by more than one author (collaborator). I have added foreign key (author_no) in research_papers table references to (author_no) in authors table. I also added another table (auth_res) to represent the linked table
+The relationship between Authors and Research papers is M - M relations, since an author can write more than one research and the research could be written by more than one author (collaborator). I have added another table (auth_res) to represent the linked table
 */
 const CREATE_RESEARCH_PAPERS_TABLE = `
   CREATE TABLE IF NOT EXISTS research_papers(
     paper_id INT PRIMARY KEY,
     paper_title VARCHAR(200),
     conference VARCHAR(100),
-    publish_date DATE,
-    author_no INT,
-    FOREIGN KEY (author_no) REFERENCES authors(author_no)
+    publish_date DATE
   );`;
   
   const CREATE_AUTH_RES_TABLE = `
@@ -44,8 +42,6 @@ async function executeQueries() {
     const papers = JSON.parse(data);
     const promise1 = papers.map(paper => execQuery('INSERT INTO research_papers SET ?', paper));
   
-    // I believe in the following 3 lines of code that we can add data to auth_res table by taking them from inner(or left) join of research_papers table rather than hard-coding them. I have tried to do so, but I could not. I will keep trying for other homeworks
-
     const aggregatedData = await readFile(__dirname + '/data/auth_res.json', 'utf8');
     const parsedData = JSON.parse(aggregatedData);
     const promises = parsedData.map(auth_res => execQuery('INSERT INTO Auth_Res SET ?', auth_res));
