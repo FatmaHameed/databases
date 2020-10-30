@@ -10,7 +10,10 @@ const CONNECTION_CONFIG = {
   database: 'Researches',
 };
 /* 
-The relationship between Authors and Research papers is M - M relations, since an author can write more than one research and the research could be written by more than one author (collaborator). I have added another table (auth_res) to represent the linked table
+The relationship between Authors and Research papers is M - M relations, 
+since an author can write more than one research 
+and the research could be written by more than one author (collaborator). 
+I have added another table (auth_res) to represent the linked table
 */
 const CREATE_RESEARCH_PAPERS_TABLE = `
   CREATE TABLE IF NOT EXISTS research_papers(

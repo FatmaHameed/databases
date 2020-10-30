@@ -19,7 +19,10 @@ const CREATE_AUTHORS_TABLE = `
     gender ENUM('m', 'f')
   );`;
   const addCollaborator = `ALTER TABLE authors ADD Collaborator int`
-  const addForeignKey = `ALTER TABLE authors ADD CONSTRAINT FK_Collaborator1 FOREIGN KEY (Collaborator) REFERENCES authors(author_no);`;
+  const addForeignKey = `ALTER TABLE authors\
+   ADD CONSTRAINT FK_Collaborator1 \
+   FOREIGN KEY (Collaborator) \
+   REFERENCES authors(author_no);`;
 
 
 async function executeQueries() {
