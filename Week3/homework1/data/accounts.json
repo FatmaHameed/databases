@@ -1,0 +1,20 @@
+[
+  {
+    "account_number": 100,
+    "balance": 1000
+  },
+  {
+    "account_number": 101,
+    "balance": 2000
+  },
+
+  {
+    "account_number": 102,
+    "balance": 700
+  },
+
+  {
+    "account_number": 103,
+    "balance": 4000
+  }
+]

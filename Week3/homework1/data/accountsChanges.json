@@ -1,0 +1,27 @@
+[
+  {
+    "account_number": 100,
+    "amount": 1000,
+    "changed_date": "2020-09-25",
+    "remark": "Monthly Salary"
+  },
+  {
+    "account_number": 101,
+    "amount": 2000,
+    "changed_date": "2020-09-25",
+    "remark": "Monthly Salary"
+  },
+
+  {
+    "account_number": 102,
+    "amount": 700,
+    "changed_date": "2020-09-25",
+    "remark": "Monthly Salary"
+  },
+  {
+    "account_number": 103,
+    "amount": 4000,
+    "changed_date": "2020-09-25",
+    "remark": "Monthly Salary"
+  }
+]
