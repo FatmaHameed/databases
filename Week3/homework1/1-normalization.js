@@ -65,7 +65,7 @@ insertData(insertDinnerClubData,  dinnerClubInfo);
 super keys: { member_name, member_address, dinner-id, dinner-date, venue_code }, {member_id, member_name}.
 candidate Keys: { member_name, member_address, dinner_id }, { member_name, member_address, dinner_date }, 
 {member_name, member_address, venue_code} { member_id }
-primary key: member_id */
+primary key: member_id or both member_id, dinner_id, food_code */
 
 /* 3- How can you develop the set of 2NF tables? (Think of relationships between different tables).
 As we can see in the table, the dinner date has partial dependencies on the dinner_id and has nothing to do 
@@ -106,7 +106,9 @@ If we see to the dinner table, we can see that the food descriptions 1, 2, 3 hav
  the food codes 1, 2, 3.
 Therefore, to develop the set of 3NF tables, the dinner_details table will be divided to following:
 1- dinner table: dinner_id, dinner_date
-2- food table: food_id, food_code, food_description */
+2- food table: food_id, food_code, food_description 
+3- We will be also needing a link table between four tables including the four primary keys as foreign keys sources (members table, dinner table, food table and venue table)
+*/
 
 const dinner = `CREATE TABLE IF NOT EXISTS dinner (dinner_id varchar(100), dinner_date date);`;
 const insertDinnerData = `INSERT INTO dinner(dinner_id, dinner_date) VALUES ?;`;

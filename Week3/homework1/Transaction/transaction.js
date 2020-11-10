@@ -27,6 +27,7 @@ async function executeTransaction() {
   } 
   catch (err) {
     console.error(err.message);
+    await execQuery(`ROLLBACK;`)
     connection.end();
   }
 };
